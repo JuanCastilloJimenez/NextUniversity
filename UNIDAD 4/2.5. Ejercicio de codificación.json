@@ -1,0 +1,12 @@
+{
+  "usuarios":[
+    {"identificacion":"1015449272"},
+    {"nombre":"Juan Pablo"},
+    {"apellido":"Castillo Jimenez"},
+    {"edad":24},
+    {"email":"juan@gmail.com"},
+    {"telefono":"3168654142"},
+    {"direccion":"CL 143 B # 141 A 43"},
+    {"estado":true}
+  ]
+}
