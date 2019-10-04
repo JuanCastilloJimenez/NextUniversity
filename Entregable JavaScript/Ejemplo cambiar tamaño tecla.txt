@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+
+</head>
+<body>
+
+<div>
+<img class="tecla" src="https://banner2.kisspng.com/20180319/rsw/kisspng-computer-icons-youtube-play-button-clip-art-youtube-subscribe-png-youtube-subscribe-to-5ab02a9c9a95f8.9043620215214946846332.jpg" width="100"/>
+<img class="tecla" src="https://banner2.kisspng.com/20180319/rsw/kisspng-computer-icons-youtube-play-button-clip-art-youtube-subscribe-png-youtube-subscribe-to-5ab02a9c9a95f8.9043620215214946846332.jpg" width="100"/>
+<img class="tecla" src="https://banner2.kisspng.com/20180319/rsw/kisspng-computer-icons-youtube-play-button-clip-art-youtube-subscribe-png-youtube-subscribe-to-5ab02a9c9a95f8.9043620215214946846332.jpg" width="100"/>
+</div>
+
+<script>
+var botones = document.getElementsByClassName("tecla");
+for (let i = 0; i < botones.length; i++) {
+botones[i].addEventListener("mousedown", function () {
+botones[i].style.transform = "scale(.95, .95)";
+});
+botones[i].addEventListener("mouseup", function () {
+botones[i].setAttribute("style", "transform:scale(1, 1)");
+});
+};
+</script>
+</body>
+</html>

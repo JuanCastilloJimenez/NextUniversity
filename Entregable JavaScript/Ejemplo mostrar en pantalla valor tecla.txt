@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+#display{
+text-align:center;
+padding:10px;
+width:200px;
+height:30px;
+background:lightblue;
+}
+#boton,#boton2{
+margin-top:50px;
+width:100px;}
+</style>
+
+</head>
+<body>
+
+<div id="display">
+
+</div>
+<div>
+<img id="boton" src="https://images.emojiterra.com/twitter/512px/31-20e3.png" width="400"/>
+
+</div>
+
+<script>
+
+var uno = document.getElementById("boton");
+
+var pantalla = document.getElementById("display");
+
+uno.addEventListener("click",function(){
+pantalla.textContent+="1";
+
+})

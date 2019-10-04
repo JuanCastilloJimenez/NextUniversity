@@ -12,3 +12,11 @@ for (let i = 0; i < botones.length; i++){
     botones[i].style.transform="scale(1,1)";
   });
 };
+
+var display = document.getElementsById('display');
+
+var uno = document.getElementsById('1');
+
+uno[0].addEventListener("onclick", function(){
+  display.value = 1;
+})
